@@ -80,3 +80,21 @@ def reading_in_numbers(string):
     string = string.replace('I', '!')
     string = string.replace('T', '7')
     return string
+
+
+# I can search for letters!
+where_is_Goku = "Oi. Eu sou o Goku!".index("Goku")
+
+
+# String concatenation
+name = "Vinicius" + " Vargas "
+name = name*3
+print(name)
+
+
+# We can also print EMOJIS:
+# access https://apps.timwhitlock.info/emoji/tables/unicode
+# Original: U+1F60D
+# Modified: U0001F60D
+emoji = '\U0001F60D'
+print(emoji)
