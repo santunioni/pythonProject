@@ -25,3 +25,16 @@ print(f"This number {number} is {type(number)}")
 
 # Using dir
 print(dir(number))
+
+# Only shallow copy in numbers
+a = 4
+b = a
+b += 1
+print(a)
+
+
+print("\nSee the help for integers:")
+print(help(3), end="\n\n")
+
+print("\nSee more methods from integers:")
+print(dir(3), end="\n\n")

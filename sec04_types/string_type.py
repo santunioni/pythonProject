@@ -98,3 +98,10 @@ print(name)
 # Modified: U0001F60D
 emoji = '\U0001F60D'
 print(emoji)
+
+
+print("\nSee the help for strings:")
+print(help("string"), end="\n\n")
+
+print("\nSee more methods from strings:")
+print(dir("string"), end="\n\n")

@@ -24,3 +24,10 @@ def and_function(bool_1, bool_2):
 
 
 print(f"The variables {True} and {False} are {type(True)}")
+
+
+print("\nSee the help for booleans:")
+print(help(True), end="\n\n")
+
+print("\nSee more methods from booleans:")
+print(dir(False), end="\n\n")

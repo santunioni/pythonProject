@@ -17,3 +17,10 @@ print("The methods available are:")
 print(dir(complex_variable))
 
 print(complex_variable/complex_variable.conjugate())
+
+
+print("\nSee the help for floats:")
+print(help(3.14), end="\n\n")
+
+print("\nSee more methods from floats:")
+print(dir(3.14), end="\n\n")

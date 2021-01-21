@@ -7,10 +7,10 @@ def not_the_input(bool_variable):
     return not bool_variable
 
 
-def compare_two_bools(bool_1, bool_2):
+def are_the_same(entry_1, entry_2):
     # I will kept redundant parenthesis
     # for better understanding
-    return (bool_1 is bool_2)
+    return (entry_1 is entry_2)
 
 
 def or_function(bool_1, bool_2):
@@ -41,3 +41,11 @@ else:
     print("Please activate your account.")
 
 
+lista_1 = [1,2,4,124,2]
+lista_2 = lista_1
+print(are_the_same(lista_1, lista_2))
+
+
+lista_1 = [1,2,4,124,2]
+lista_2 = lista_1.copy()
+print(are_the_same(lista_1, lista_2))

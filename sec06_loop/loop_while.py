@@ -29,5 +29,3 @@ while answer != 'yes':
     answer = input('Have you finished your work, Bianca? ')
     answer = answer.lower()
 print("Good job!")
-
-
