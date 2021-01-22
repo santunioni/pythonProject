@@ -82,7 +82,7 @@ print("Making Shallow Copy with dictionaries", end="\n \n")
 countries_shortcut_1 = countries_shortcut_2.copy()
 
 
-print("Extracting keys from dictionaries")
+print("Unpacking keys from dictionaries")
 for _key in countries_shortcut_1.keys():
     print(_key, countries_shortcut_1.get(_key))
 print("Extracting values from dictionaries", end="\n \n")
@@ -123,6 +123,15 @@ print("Unusual way to construct dictionaries:")
 new_dict = {}.fromkeys(['us', 'br', 'ru', 'py'], "unknown")
 # syntax: {}.fromkeys(iterable, every_key_value)
 print(new_dict)
+
+
+# Another type of unpacking
+def sum_this_numbers(first, second, third):
+    return first + second + third
+
+
+numbers_to_sum = {'first': 1, 'second': 2, 'third': 3}
+print(f'The sum is {sum_this_numbers(**numbers_to_sum)}')
 
 
 print("\nSee the help for dictionaries:")

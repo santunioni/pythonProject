@@ -125,6 +125,12 @@ print(lista1)
 print(lista2)
 
 
+print("\n\nUnpacking lists, compare the following two prints:")
+lista = [123, 2312, 124, 1243, 554, "end"]
+print(lista)
+print(*lista)
+
+
 print("\nSee the help for lists:")
 print(help([]), end="\n\n")
 
