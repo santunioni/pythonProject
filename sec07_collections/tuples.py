@@ -9,7 +9,7 @@ There are two basic differences:
     - Every operation on a tuple returns a new tuple.
 """
 
-tuple_1 = (12,12, 41,24,12,41)
+tuple_1 = (12, 12, 41, 24, 12, 41)
 print(tuple_1)
 tuple_2 = tuple(sorted(tuple_1))
 print(tuple_2)
