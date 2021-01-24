@@ -1,1 +1,6 @@
-I am studying with Geek University and I am learning a lot of Python
+Using seek() in this mode, we overwriting the previous characters.  
+As long we respect the write function receives only strings.
+This mode of writing the file will overwrite it. You will lose previous texts.
+This will open the file for writing and write on it's last line if the file already exist.
+If the file don't exist, a new file will be created.
+With the append format, the content will be added only in the file final. We can't control the cursor.
