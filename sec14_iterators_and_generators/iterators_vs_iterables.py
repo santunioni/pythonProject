@@ -9,7 +9,7 @@ Iterable ->
     - One object that returns an iterator when method iter() is called on it.
 """
 
-# Iterable examples: this a not iterators. The thing that for loop does is to transform
+# Iterable examples: this is not iterator. The thing that for loop does is to transform
 # iterables into iterators by calling the iter() function.
 name = 'Geek University'
 numbers = [number for number in range(10)]
