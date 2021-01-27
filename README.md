@@ -1,4 +1,4 @@
-# Python Avançado - [Geek University](hpttps://www.geekuniversity.com.br)
+# Python Avançado - [Geek University](https://www.geekuniversity.com.br)
 
 **Aprenda sobre:**
 
