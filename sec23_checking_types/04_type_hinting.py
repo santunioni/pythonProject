@@ -3,8 +3,12 @@ This is a formal solution to impose static types variables to Python.
 We can define the parameter types that a function receive and specify the return type.
 PEP 484 -> Python3.5
 """
+<<<<<<< HEAD
 # defining variables:
 # variable: type = value
+=======
+
+>>>>>>> b1f4bb9fafe82372c4b92447e7029019864e02ce
 
 # This is a function receiving only a string, returning also a string.
 def greet(name: str) -> str:
