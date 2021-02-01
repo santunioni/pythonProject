@@ -1,4 +1,4 @@
-# Python Avançado - [Geek University](https://www.geekuniversity.com.br)
+# Python Avançado - [Geek University](hpttps://www.geekuniversity.com.br)
 
 **Aprenda sobre:**
 
@@ -17,13 +17,13 @@
 - [Herança e Polimorfismo](#inheritance)
 - [Manipulação de Arquivos CSV e JSON](#csv_json)
 - [Data e Horas](#datetime)
-- Testes;
-- Alocação e Gerenciamento de Memória;
-- Novidades do Python 3.8;
-- Projeto 1: Game;
-- Projeto 2: Mercado;
-- Projeto 3: Banco;
-- E muito mais!
+- [Testes](#tests)
+- [Alocação e Gerenciamento de Memória](#memory)
+- [Dicas e checagem de tipos](#checking_types)
+- [Novidades do Python 3.8](#python38_news)
+- Projeto 1: Game
+- Projeto 2: Mercado
+- Projeto 3: Banco
 
 ## Sobre o curso
 ![sobre-curso](images/Geek+University+Programação+em+Python++Essencial.png)
@@ -254,7 +254,7 @@ Why creating functions? DRY - Don't repeat yourself
 - **[Define functions](sec08_functions/define_functions.py)**
 - **[Docstrings](sec08_functions/docstrings.py)**
 - **[*args](sec08_functions/*args.py)**
-- **[*kwargs](sec08_functions/*kwargs.py)**
+- **[**kwargs](sec08_functions/*kwargs.py)**
 
 ---
 <a id='comprehensions'></a>
@@ -446,6 +446,75 @@ Inheritance is one in which a new class is created (derived class) that inherits
 
 [Look at the files](sec19_time_date) for usage examples:
 
-- **[datetime](sec18_csv_json/date_time.py)**
-  - **[methods](sec18_csv_json/methods.py)**
+- **[datetime](sec19_time_date/date_time.py)**
+  - **[methods](sec19_time_date/methods.py)**
 
+---
+<a id='tests'></a>
+
+# Tests
+
+[Look at the files](sec20_testing) for usage examples:
+
+- **[Why testing?](sec20_testing/why_testing.py)**
+- **[Assert (built-in)](sec20_testing/assert.py)**
+- **[Doctests](sec20_testing/doctests.py)**
+- **Unittest module**
+  - **[Introduction](sec20_testing/intro_unittest.py)**
+  - **Practice 1 (activities):**
+    - **[Classes and methods](sec20_testing/activities.py)**
+    - **[Tests](sec20_testing/tests.py)**)**
+  - **Practice 2 (Robot):**
+    - **[Classes and methods](sec20_testing/robot.py)**
+    - **[Tests](sec20_testing/robot_tests.py)**
+  - **[Before and After Hooks](sec20_testing/before_after_hooks.py)**
+  - **[Other Assertions](https://docs.python.org/3/library/unittest.html#assert-methods)**
+
+---
+<a id='closing'></a>
+ 
+# Closing
+
+The course ends here. The following are additionals.
+ 
+ 
+---
+<a id='memory'></a>
+ 
+# Memory manager
+ 
+ 
+ - **Global interpreter lock (GIL)**
+ - **[Single thread](sec22_memory_manager/single_thread.py)**
+ - **[Multi thread](sec22_memory_manager/multi_thread.py)**
+ - **[Multi processes](sec22_memory_manager/multi_processing.py)** 
+
+---
+<a id='checking_types'></a>
+ 
+# Checking Types (type hinting)
+ 
+Python is a dynamically typed language and this will never change. Therefore variables have no predefined type. However, we can make our life as developers easier by fixing type hints to variables, preventing some bugs that may occur when non-wanted types are assigned.
+ 
+ - **[Dynamic vs static typed](sec23_checking_types/02_dynamic_vs_static.py)**
+ - **[Duck type concept](sec23_checking_types/03_duck_typing.py)**
+ - **[Type hinting](sec23_checking_types/04_type_hinting.py)**
+ - **[Type checking with MyPy](sec23_checking_types/05_type_checking_MyPy.py)** (the more usual way)
+ - **[Annotations](sec23_checking_types/07_annotations.py)**
+ - **[Types in comments](sec23_checking_types/08_types_in_comments.py)** (very weird)
+ - **Example: card game**
+   - **[Without type hinting](sec23_checking_types/jogo_cartas_v1.py)**
+   - **[With type hinting](sec23_checking_types/jogo_cartas_v2.py)**
+ 
+---
+<a id='python38_news'></a>
+ 
+# Python 3.8: New Functionalities
+ 
+ - **[Walrus operator](sec24_python38_news/walrus_operator.py)**
+ - **[Positional-only and positional-forbidden arguments](sec24_python38_news/positional_only_arguments.py)**
+ - **[More precise Types](sec24_python38_news/more_precise_types.py)**
+ - **[Simpler debugging with f-strings](sec24_python38_news/simpler_debugger.py)**
+ - **[Metadata managing](sec24_python38_news/metadata.py)**
+ - **[Math and Statistics functions](sec24_python38_news/math_statistics.py)**
+ - **[SyntaxWarning](sec24_python38_news/dangerous_syntaxes.py)**
