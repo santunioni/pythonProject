@@ -378,7 +378,7 @@ See more errors [here](https://docs.python.org/3.8/library/exceptions.html).
 - **[Higher order functions](sec15_decorators/higher_order_functions.py)**
 - **[Decorators](sec15_decorators/decorators.py)**
 - **[Multiple signatures](sec15_decorators/multiple_signatures.py)**
-- **[wraps](sec15_decorators/wraps.py)**
+- **[wraps](sec15_decorators/preserving_metadata_wraps.py)**
 - **[Forcing types to functions](sec15_decorators/checking_types.py)**
 
 ---
@@ -463,7 +463,7 @@ Inheritance is one in which a new class is created (derived class) that inherits
   - **[Introduction](sec20_testing/intro_unittest.py)**
   - **Practice 1 (activities):**
     - **[Classes and methods](sec20_testing/activities.py)**
-    - **[Tests](sec20_testing/tests.py)**)**
+    - **[Tests](sec20_testing/tests.py)**
   - **Practice 2 (Robot):**
     - **[Classes and methods](sec20_testing/robot.py)**
     - **[Tests](sec20_testing/robot_tests.py)**
